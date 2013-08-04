@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		04932C2717ABFF030030CE53 /* libmms-universal */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 04932C2817ABFF030030CE53 /* Build configuration list for PBXAggregateTarget "libmms-universal" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "libmms-universal";
+			productName = "libmms-universal";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		04932BF517ABD2C60030CE53 /* mmsh.c in Sources */ = {isa = PBXBuildFile; fileRef = 04932BF117ABD2C60030CE53 /* mmsh.c */; };
+		04932BF617ABD2C60030CE53 /* uri.c in Sources */ = {isa = PBXBuildFile; fileRef = 04932BF417ABD2C60030CE53 /* uri.c */; };
+		04932BFC17ABD2D10030CE53 /* mms.c in Sources */ = {isa = PBXBuildFile; fileRef = 04932BF717ABD2D10030CE53 /* mms.c */; };
+		04932BFD17ABD2D10030CE53 /* mmsx.c in Sources */ = {isa = PBXBuildFile; fileRef = 04932BFA17ABD2D10030CE53 /* mmsx.c */; };
+		04932C0617ABF6760030CE53 /* mms_config.h in Headers */ = {isa = PBXBuildFile; fileRef = 04932C0017ABD2DE0030CE53 /* mms_config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04932C0717ABF67A0030CE53 /* bswap.h in Headers */ = {isa = PBXBuildFile; fileRef = 04932BFF17ABD2D90030CE53 /* bswap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04932C0817ABF6800030CE53 /* asfheader.h in Headers */ = {isa = PBXBuildFile; fileRef = 04932BFE17ABD2D90030CE53 /* asfheader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04932C0917ABF6840030CE53 /* mms.h in Headers */ = {isa = PBXBuildFile; fileRef = 04932BF817ABD2D10030CE53 /* mms.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04932C0A17ABF68A0030CE53 /* mmsio.h in Headers */ = {isa = PBXBuildFile; fileRef = 04932BF917ABD2D10030CE53 /* mmsio.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04932C0B17ABF68D0030CE53 /* uri.h in Headers */ = {isa = PBXBuildFile; fileRef = 04932BFB17ABD2D10030CE53 /* uri.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04932C0C17ABF6900030CE53 /* mms-common-funcs.h in Headers */ = {isa = PBXBuildFile; fileRef = 04932BEF17ABD2C60030CE53 /* mms-common-funcs.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		04932C0D17ABF6940030CE53 /* mms-common.h in Headers */ = {isa = PBXBuildFile; fileRef = 04932BF017ABD2C60030CE53 /* mms-common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04932C0E17ABF6970030CE53 /* mmsh.h in Headers */ = {isa = PBXBuildFile; fileRef = 04932BF217ABD2C60030CE53 /* mmsh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04932C0F17ABF69F0030CE53 /* mmsx.h in Headers */ = {isa = PBXBuildFile; fileRef = 04932BF317ABD2C60030CE53 /* mmsx.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04932BDC17ABD23D0030CE53 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04932BDE17ABD23D0030CE53 /* libmms.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmms.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		04932BEF17ABD2C60030CE53 /* mms-common-funcs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "mms-common-funcs.h"; sourceTree = "<group>"; };
+		04932BF017ABD2C60030CE53 /* mms-common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "mms-common.h"; sourceTree = "<group>"; };
+		04932BF117ABD2C60030CE53 /* mmsh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mmsh.c; sourceTree = "<group>"; };
+		04932BF217ABD2C60030CE53 /* mmsh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mmsh.h; sourceTree = "<group>"; };
+		04932BF317ABD2C60030CE53 /* mmsx.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mmsx.h; sourceTree = "<group>"; };
+		04932BF417ABD2C60030CE53 /* uri.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = uri.c; sourceTree = "<group>"; };
+		04932BF717ABD2D10030CE53 /* mms.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mms.c; sourceTree = "<group>"; };
+		04932BF817ABD2D10030CE53 /* mms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mms.h; sourceTree = "<group>"; };
+		04932BF917ABD2D10030CE53 /* mmsio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mmsio.h; sourceTree = "<group>"; };
+		04932BFA17ABD2D10030CE53 /* mmsx.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mmsx.c; sourceTree = "<group>"; };
+		04932BFB17ABD2D10030CE53 /* uri.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uri.h; sourceTree = "<group>"; };
+		04932BFE17ABD2D90030CE53 /* asfheader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asfheader.h; sourceTree = "<group>"; };
+		04932BFF17ABD2D90030CE53 /* bswap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bswap.h; sourceTree = "<group>"; };
+		04932C0017ABD2DE0030CE53 /* mms_config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mms_config.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04932BDB17ABD23D0030CE53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04932BD517ABD23D0030CE53 = {
+			isa = PBXGroup;
+			children = (
+				04932C0017ABD2DE0030CE53 /* mms_config.h */,
+				04932BFE17ABD2D90030CE53 /* asfheader.h */,
+				04932BFF17ABD2D90030CE53 /* bswap.h */,
+				04932BF717ABD2D10030CE53 /* mms.c */,
+				04932BF817ABD2D10030CE53 /* mms.h */,
+				04932BF917ABD2D10030CE53 /* mmsio.h */,
+				04932BFA17ABD2D10030CE53 /* mmsx.c */,
+				04932BFB17ABD2D10030CE53 /* uri.h */,
+				04932BEF17ABD2C60030CE53 /* mms-common-funcs.h */,
+				04932BF017ABD2C60030CE53 /* mms-common.h */,
+				04932BF117ABD2C60030CE53 /* mmsh.c */,
+				04932BF217ABD2C60030CE53 /* mmsh.h */,
+				04932BF317ABD2C60030CE53 /* mmsx.h */,
+				04932BF417ABD2C60030CE53 /* uri.c */,
+				04932BDF17ABD23D0030CE53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04932BDF17ABD23D0030CE53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04932BDE17ABD23D0030CE53 /* libmms.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04932C0517ABF6700030CE53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04932C0B17ABF68D0030CE53 /* uri.h in Headers */,
+				04932C0917ABF6840030CE53 /* mms.h in Headers */,
+				04932C0E17ABF6970030CE53 /* mmsh.h in Headers */,
+				04932C0F17ABF69F0030CE53 /* mmsx.h in Headers */,
+				04932C0A17ABF68A0030CE53 /* mmsio.h in Headers */,
+				04932C0D17ABF6940030CE53 /* mms-common.h in Headers */,
+				04932C0617ABF6760030CE53 /* mms_config.h in Headers */,
+				04932C0817ABF6800030CE53 /* asfheader.h in Headers */,
+				04932C0717ABF67A0030CE53 /* bswap.h in Headers */,
+				04932C0C17ABF6900030CE53 /* mms-common-funcs.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		04932BDD17ABD23D0030CE53 /* mms */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04932BEC17ABD23D0030CE53 /* Build configuration list for PBXNativeTarget "mms" */;
+			buildPhases = (
+				04932BDA17ABD23D0030CE53 /* Sources */,
+				04932BDB17ABD23D0030CE53 /* Frameworks */,
+				04932BDC17ABD23D0030CE53 /* CopyFiles */,
+				04932C0517ABF6700030CE53 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mms;
+			productName = mms;
+			productReference = 04932BDE17ABD23D0030CE53 /* libmms.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04932BD617ABD23D0030CE53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = xiaoran;
+			};
+			buildConfigurationList = 04932BD917ABD23D0030CE53 /* Build configuration list for PBXProject "mms" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 04932BD517ABD23D0030CE53;
+			productRefGroup = 04932BDF17ABD23D0030CE53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04932BDD17ABD23D0030CE53 /* mms */,
+				04932C2717ABFF030030CE53 /* libmms-universal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04932BDA17ABD23D0030CE53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04932BF517ABD2C60030CE53 /* mmsh.c in Sources */,
+				04932BF617ABD2C60030CE53 /* uri.c in Sources */,
+				04932BFC17ABD2D10030CE53 /* mms.c in Sources */,
+				04932BFD17ABD2D10030CE53 /* mmsx.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		04932BEA17ABD23D0030CE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04932BEB17ABD23D0030CE53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04932BED17ABD23D0030CE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "${SRCROOT}";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "/usr/local/**";
+				INSTALL_PATH = "/lib/${CONFIGURATION}$(EFFECTIVE_PLATFORM_NAME)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = Headers;
+				SKIP_INSTALL = NO;
+				SYMROOT = "${SRCROOT}";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Debug;
+		};
+		04932BEE17ABD23D0030CE53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "${SRCROOT}";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = "/usr/local/**";
+				INSTALL_PATH = "/lib/${CONFIGURATION}$(EFFECTIVE_PLATFORM_NAME)";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = Headers;
+				SKIP_INSTALL = NO;
+				SYMROOT = "${SRCROOT}";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s i386";
+			};
+			name = Release;
+		};
+		04932C2917ABFF030030CE53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		04932C2A17ABFF030030CE53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04932BD917ABD23D0030CE53 /* Build configuration list for PBXProject "mms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04932BEA17ABD23D0030CE53 /* Debug */,
+				04932BEB17ABD23D0030CE53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04932BEC17ABD23D0030CE53 /* Build configuration list for PBXNativeTarget "mms" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04932BED17ABD23D0030CE53 /* Debug */,
+				04932BEE17ABD23D0030CE53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04932C2817ABFF030030CE53 /* Build configuration list for PBXAggregateTarget "libmms-universal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04932C2917ABFF030030CE53 /* Debug */,
+				04932C2A17ABFF030030CE53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04932BD617ABD23D0030CE53 /* Project object */;
+}
